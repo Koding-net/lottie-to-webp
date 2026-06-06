@@ -8,9 +8,9 @@
   "keywords": ["lottie", "webp", "animated-webp", "lottie-to-webp", "animation", "converter", "cli", "puppeteer", "ffmpeg", "img2webp", "kodeking"],
   "author": "KodeKing <hello@kodeking.dev>",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/kodeking/lottie-to-webp.git" },
-  "homepage": "https://github.com/kodeking/lottie-to-webp#readme",
-  "bugs": { "url": "https://github.com/kodeking/lottie-to-webp/issues" },
+  "repository": { "type": "git", "url": "https://github.com/Koding-net/lottie-to-webp.git" },
+  "homepage": "https://github.com/Koding-net/lottie-to-webp#readme",
+  "bugs": { "url": "https://github.com/Koding-net/lottie-to-webp/issues" },
   "engines": { "node": ">=18.0.0" },
   "dependencies": {
     "lottie-web": "^5.12.2",
