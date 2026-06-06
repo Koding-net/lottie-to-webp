@@ -1,9 +1,9 @@
-# @kodeking/lottie-to-webp
+# @koding-net/lottie-to-webp
 
 > Convert Lottie JSON animations to **animated WebP** — Node.js CLI + programmatic API
 
-[![npm](https://img.shields.io/npm/v/@kodeking/lottie-to-webp)](https://www.npmjs.com/package/@kodeking/lottie-to-webp)
-[![license](https://img.shields.io/npm/l/@kodeking/lottie-to-webp)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@koding-net/lottie-to-webp)](https://www.npmjs.com/package/@koding-net/lottie-to-webp)
+[![license](https://img.shields.io/npm/l/@koding-net/lottie-to-webp)](LICENSE)
 
 Better than GIF: full RGBA transparency, smaller files, smoother gradients. Uses **img2webp** (preferred) or **ffmpeg** for encoding. Try it live at [iconking.net/tools/lottie-to-webp](https://iconking.net/tools/lottie-to-webp).
 
@@ -22,8 +22,8 @@ Better than GIF: full RGBA transparency, smaller files, smoother gradients. Uses
 ## Install
 
 ```bash
-npm install -g @kodeking/lottie-to-webp
-npx @kodeking/lottie-to-webp input.json output.webp
+npm install -g @koding-net/lottie-to-webp
+npx @koding-net/lottie-to-webp input.json output.webp
 ```
 
 ---
@@ -39,7 +39,7 @@ lottie-to-webp input.json output.webp [--fps 15] [--width 480] [--quality 80]
 ## Programmatic API
 
 ```js
-const { convertToWebp } = require('@kodeking/lottie-to-webp');
+const { convertToWebp } = require('@koding-net/lottie-to-webp');
 
 await convertToWebp({
   input:   'animation.json',

@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * @kodeking/lottie-to-webp
+ * @koding-net/lottie-to-webp
  *
  * Convert a Lottie JSON animation to animated WebP.
  * Uses Puppeteer to render frames, img2webp (preferred) or ffmpeg for encoding.
  *
  * CLI:  npx lottie-to-webp input.json output.webp [--fps 15] [--width 480]
- * API:  const { convertToWebp } = require('@kodeking/lottie-to-webp')
+ * API:  const { convertToWebp } = require('@koding-net/lottie-to-webp')
  */
 
 'use strict';
