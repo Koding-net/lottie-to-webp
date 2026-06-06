@@ -1,0 +1,19 @@
+{
+  "name": "@kodeking/lottie-to-webp",
+  "version": "1.0.0",
+  "description": "Convert Lottie JSON animations to animated WebP — Node.js CLI and programmatic API",
+  "main": "src/index.js",
+  "bin": { "lottie-to-webp": "src/index.js" },
+  "files": ["src"],
+  "keywords": ["lottie", "webp", "animated-webp", "lottie-to-webp", "animation", "converter", "cli", "puppeteer", "ffmpeg", "img2webp", "kodeking"],
+  "author": "KodeKing <hello@kodeking.dev>",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/kodeking/lottie-to-webp.git" },
+  "homepage": "https://github.com/kodeking/lottie-to-webp#readme",
+  "bugs": { "url": "https://github.com/kodeking/lottie-to-webp/issues" },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "lottie-web": "^5.12.2",
+    "puppeteer": "^22.0.0"
+  }
+}
